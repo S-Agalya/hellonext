@@ -1,26 +1,23 @@
-
 import Image from "next/image"
 const index = () => {
   return (
     <>
-     <div style ={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      
-      <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert "
-              width={100}
-              height={24}
-              priority
-            /><br></br>
-            <h1 className="text-center"> HELLO NEXT.JS</h1>
-    </div>
     
+    <div 
+    style={{ display: 'flex', flexDirection:"column",justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+        <h1 className="font-bold text-size:20" >HELLO </h1><br/>
+        <Image
+          className="relative "
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+        />
+      </div>
 
-
-     </>
+      
+    </>
   )
 }
 
 export default index
-
