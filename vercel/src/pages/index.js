@@ -22,11 +22,11 @@ const index = () => {
               className="dark:invert"
               width={100}
               height={24}
-              priority
+              
             />
             
       </div>
-      <h1 style={{ position: 'absolute', top: '70px', left: '50%', transform: 'translateX(-50%)' ,fontSize: '2rem' }} className="font-bold ">WELCOME TO NEXT.JS</h1>
+      <h1 className="responsive-header">WELCOME TO NEXT.JS</h1>
 
     </>
   )
