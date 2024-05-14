@@ -31,7 +31,7 @@ const ContactForm = () => {
           value={email} 
           onChange={(e) => setemail(e.target.value)} 
           className="w-full px-3 py-2 border rounded" 
-          style={{color:'black'}}
+          style={{color:'black'}} 
           required 
         />
       </div>
