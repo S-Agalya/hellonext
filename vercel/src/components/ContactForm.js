@@ -7,7 +7,7 @@ const ContactForm = () => {
     const router=useRouter()
     const handlesubmit =(e)=>{
  e.preventDefault()
- router.push(`/submit_page?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`);
+ router.push(`/submit_page?name=${(name)}&email=${(email)}&message=${(message)}`);
     }
   return (
     <>
