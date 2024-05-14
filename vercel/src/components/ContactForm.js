@@ -14,7 +14,7 @@ const ContactForm = () => {
     
     <form onSubmit={handlesubmit} className="max-w-md mx-auto my-8 p-4 bg-white shadow-md rounded-lg" >
       <div className="mb-4">
-        <label className="block text-gray-700">Name</label>
+        <label className="block text-gray-700 text-black">Name</label>
         <input 
           type="text" 
           value={name} 
@@ -24,7 +24,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700">Email</label>
+        <label className="block text-gray-700 text-black">Email</label>
         <input 
           type="email" 
           value={email} 
@@ -34,7 +34,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700">Message</label>
+        <label className="block text-gray-700 text-black">Message</label>
         <textarea 
           value={message} 
           onChange={(e) => setmessage(e.target.value)} 
