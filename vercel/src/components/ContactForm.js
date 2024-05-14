@@ -20,6 +20,7 @@ const ContactForm = () => {
           value={name} 
           onChange={(e) => setname(e.target.value)} 
           className="w-full px-3 py-2 border rounded" 
+          style={{color:'black'}}
           required 
         />
       </div>
@@ -30,6 +31,7 @@ const ContactForm = () => {
           value={email} 
           onChange={(e) => setemail(e.target.value)} 
           className="w-full px-3 py-2 border rounded" 
+          style={{color:'black'}}
           required 
         />
       </div>
@@ -39,6 +41,7 @@ const ContactForm = () => {
           value={message} 
           onChange={(e) => setmessage(e.target.value)} 
           className="w-full px-3 py-2 border rounded" 
+          style={{color:'black'}}
           required 
         />
       </div>
