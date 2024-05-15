@@ -20,6 +20,7 @@ const submit_page = () => {
         <p className='mb-4' style={{color:'black'}}><strong>Email: </strong>{email}</p>
         <p className='mb-4' style={{color:'black'}}><strong>Message: </strong>{message}</p>
     </div>
+   
     <div className=' flex items-center justify-center '>
     <button type='submit' onClick={handlebackclick} className="px-4 py-2 bg-blue-500 text-white  rounded">BACK!!</button>
     </div>
