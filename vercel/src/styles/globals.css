@@ -7,32 +7,11 @@
       font-size: 24px; /* Adjust font size */
     }
   }
-
-  :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --foreground-rgb: 255, 255, 255;
-      --background-start-rgb: 0, 0, 0;
-      --background-end-rgb: 0, 0, 0;
+  @media(max-width:768px){
+    p{
+      font-size: 20px;
     }
   }
-  
-  
-  .responsive-header {
-    position: absolute;
-    top: 70px;
-    left: 40%;
 
-    font-size: 2rem;
-  }
 
-  @media (max-width: 768px) {
-    .responsive-header {
-      font-size:1.1rem; /* Adjust font size for smaller screens */
-    }
-  }
+  
