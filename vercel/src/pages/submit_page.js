@@ -2,7 +2,6 @@ import { useSearchParams } from 'next/navigation'
 import { useRouter } from 'next/router'
 import React from 'react'
 
-
 const submit_page = () => {
     const searchparams=useSearchParams()
   const router=useRouter()
